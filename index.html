@@ -21,10 +21,10 @@
 </head>
 <body>
 
-<div id="container">
+<div id="container-fluid">
  <!-- TOPBAR    -->
     <div class="header1  "> 
-        <div class="row p-3 ">
+        <div class="row p-2 ">
             <div class="col-lg-3  d-flex justify-content-end  ">
                 <i class="bi bi-envelope"> <a class="text-right" href="mailto:contact@example.com">contact@example.com</a></i>
             </div>
@@ -141,10 +141,10 @@
         <div class="row  p-5">
           <div class="col-lg-6  mx-auto impact  p-5">
             <h2>Welcome to Impact</h2>
-            <p>Sed autem laudantium dolores.
+            <p class="py-2">Sed autem laudantium dolores.
              Voluptatem itaque ea consequatur eveniet. Eum quas beatae cumque eum quaerat.</p>
              <div >
-                <a class=" btn-bg-green border border-white" href="#">Get Started </a>
+                <a class=" btn-bg-green " href="#">Get Started </a>
                 <a  class="btn-video" href="#">
                     <i class="bi bi-play-circle"></i>
                     <span >Watch Video</span>
@@ -160,15 +160,15 @@
     <div class="container ">
       <div class="row gx-3 mt-5  ">
         <div class="col ">
-          <a class="text-decoration-none" href="#">
+          <a href="#">
             <div class="icon-card text-center p-5">
               <i class="bi bi-easel "></i>
-              <h3> Lorem Ipsum </h3>
+              <h3 > Lorem Ipsum </h3>
             </div>
           </a>
         </div>
         <div class="col ">
-          <a class="text-decoration-none" href="#">
+          <a  href="#">
             <div class="icon-card text-center p-5">
               <i class="bi bi-gem"></i>
               <h3> Sed ut perspiciatis </h3>
@@ -176,7 +176,7 @@
           </a>
         </div>
         <div class="col ">
-          <a class="text-decoration-none" href="#">
+          <a  href="#">
             <div class="icon-card text-center p-5">
               <i class="bi bi-geo-alt"></i>
               <h3> Magni Dolores </h3>
@@ -199,7 +199,7 @@
     <div class="about-us  ">
       <div class="row  sec-heading  ">
           <h2 >About Us</h2>
-          <p class="p-5">Aperiam dolorum et et wuia molestias qui eveniet numquam nihil porro 
+          <p class="p-1 ">Aperiam dolorum et et wuia molestias qui eveniet numquam nihil porro 
             incidunt dolores placeat sunt id nobis omnis tiledo stran delop</p>
       </div>
       <div class="container "> 
@@ -219,19 +219,19 @@
         </div>
         <div class="col-lg-6">
           <div class="p-4">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+            <p class="fst-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
               incididunt ut labore et dolore magna aliqua.</p>
               <div class=" d-flex ">
                   <i class="bi bi-check-circle-fill"></i>
-                  <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>  
+                  <p class="lh-1">Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>  
               </div>
               <div class=" d-flex ">
                 <i class="bi bi-check-circle-fill"></i>
-                <p>Duis aute irure dolor in reprehenderit in voluptate velit.</p>  
+                <p class="lh-1">Duis aute irure dolor in reprehenderit in voluptate velit.</p>  
             </div>
             <div class=" d-flex ">
               <i class="bi bi-check-circle-fill"></i>
-              <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute 
+              <p class="lh-1">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute 
                 irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro
                  dolore eu fugiat nulla pariatur.</p>  
             </div>
@@ -296,34 +296,37 @@
     </div>
 
 <!-- video -->
-<div class="container border border-danger">
-  <div id="carouselExampleSlidesOnly" class="carousel slide carosal-pic-sec" data-bs-ride="carousel">
+<div class="container">
+  <div id="carouselExampleDark" class="carousel carousel-dark slide  calltofunction-video mb-5" data-bs-ride="carousel">
     <div class="carousel-inner">
-      <div class="carousel-item active carosal-pic-sec">
-        <img src="https://bootstrapmade.com/demo/templates/Impact/assets/img/stats-img.svg" class="d-block w-100" alt="...">
-        <div class=" carosal-caption-sec  text-center">
-          <!-- <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox  "> </a> -->
-          <a  class="btn-video  bg-danger" href="https://www.youtube.com/watch?v=LXb3EKWsInQ">
-            <i class="bi bi-play-circle"></i>
-          </a>
-          
-          <h3  >Call To Action</h3>
+      <div class="carousel-item active" >
+        <img src="https://bootstrapmade.com/demo/templates/Impact/assets/img/cta-bg.jpg" class="d-block w-100" alt="...">
+        <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="circle-bg"> 
+          <i class="bi bi-play-fill"></i>
+        </a>
+          <!-- <a  class="btn-video btn-video-big " href="https://www.youtube.com/watch?v=LXb3EKWsInQ"> -->
+            <!-- <i class="bi bi-play-circle"></i> -->
+          <!-- </a> -->
+          <!--  -->
+        <div class=" carousel-caption d-none d-md-block  calltofunction-item  ">
+          <h3 class="p-4" >Call To Action</h3>
           <p >Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est 
              laborum..</p>
-          <a href="#">
-           <button  class="btn-bg-green border border-none">Call To Action</button> 
-          </a>
+             <a href="#">
+              <button  class="btn-bg-green btn-bg-trensparent">Call To Action</button> 
+             </a>
         </div>
       </div>
     </div>
   </div>
 </div>
-   
+
+  
   
   <!-- services -->
-  <div class="services p-3">
-    <div id="header " class="text-center m-5">
+  <div class="services sec-heading p-3">
+    <div id="header " class=" m-5">
         <h2>Our Services</h2>
         <p>Aperiam dolorum et et wuia molestias qui eveniet numquam nihil porro incidunt dolores
            placeat sunt id nobis omnis tiledo stran delop</p>
@@ -419,7 +422,7 @@
     </div>
   </div>
   <!-- testimonial -->
-<div class="testimonial mb-5">
+<div class="testimonial  sec-heading mb-5">
     <div id="header " class="text-center m-5">
       <h2>Testimonials</h2>
       <p>Voluptatem quibusdam ut ullam perferendis repellat non ut consequuntur est eveniet deleniti fignissimos eos quam</p>
@@ -515,21 +518,40 @@
       </div>
     </div>
   </div>
+  <!-- spinners  -->
+  <div class="m-3">
+    <div class="spinner-grow spinner-grow-sm" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+    <div class="spinner-grow spinner-grow-sm" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+    <div class="spinner-grow spinner-grow-sm" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+    <div class="spinner-grow spinner-grow-sm" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+    <div class="spinner-grow spinner-grow-sm" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+  </div>
 </div>
 
+
 <!-- Portfolio -->
-<div class="portfolio p-3 ">
+<div class="portfolio sec-heading p-3 ">
     <div id="header " class="text-center m-5">
-      <h2 class="pb-1">Portfolio</h2>
+      <h2 >Portfolio</h2>
       <p class="text-muted ">Quam sed id excepturi ccusantium dolorem ut quis dolores nisi llum nostrum enim velit qui ut et autem uia reprehenderit sunt deleniti.</p>
     </div>
     <div class="portfolio-item mb-5">
       <div class="container text-center">
-        <div class="d-inline-block p-2"><a class="text-decoration-none text-black" href="#"><h6>All</h6></a></div>
-        <div class="d-inline-block p-2"><a class="text-decoration-none text-black" href="#"><h6>APP</h6></a></div>
-        <div class="d-inline-block p-2"><a class="text-decoration-none text-black" href="#"><h6>Product</h6></a></div>
-        <div class="d-inline-block p-2"><a class="text-decoration-none text-black" href="#"><h6>Branding</h6></a></div>
-        <div class="d-inline-block p-2"><a class="text-decoration-none text-black" href="#"><h6>Books</h6></a></div>
+        <div class="d-inline-block p-1"><a  href="#"><h6>All</h6></a></div>
+        <div class="d-inline-block p-1"><a  href="#"><h6>APP</h6></a></div>
+        <div class="d-inline-block p-1"><a  href="#"><h6>Product</h6></a></div>
+        <div class="d-inline-block p-1"><a  href="#"><h6>Branding</h6></a></div>
+        <div class="d-inline-block p-1"><a  href="#"><h6>Books</h6></a></div>
 
         <!-- <ul class="d-flex  text-center ">
           <li class="p-1 "><h6>All</h6></li>
@@ -680,9 +702,9 @@
     </div>
 </div>
 <!-- our team -->
-<div class="team">
-  <div id="header " class="text-center m-5">
-    <h2 class="pb-1">Our Team </h2>
+<div class="team sec-heading p-2">
+  <div id="header " class=" m-5">
+    <h2>Our Team </h2>
     <p class="text-muted ">Nulla dolorum nulla nesciunt rerum facere sed ut inventore quam porro nihil id ratione ea sunt quis dolorem dolore earum.</p>
   </div>
   <div class="container ">
@@ -754,99 +776,221 @@
   </div>
 </div>
 <!-- pricing -->
-  <div class="pricing p-3">
+<div class="pricing sec-heading p-3">
     <div id="header " class="text-center m-5">
-      <h2 class="pb-1">Pricing </h2>
+      <h2 >Pricing </h2>
       <p class="text-muted ">Aperiam dolorum et et wuia molestias qui eveniet numquam nihil porro incidunt dolores placeat sunt id nobis omnis tiledo stran delop.</p>
     </div>
-    <div class="Pricing-item">
-      <div class="row justify-content-center">
-        <div class="col-auto shadow text-center p-4">
-          <h3 class="text-muted mt-5">Free Plan</h3>
-          <span class="circle "></span> 
-          <h4><sup>$</sup>"0" <span>/ month</span></h4>
-          <div class="text-start">
-            <i class="bi bi-check-circle-fill"></i>
-            <span>Quam adipiscing vitae proin</span>
-          </div>
-          <div class="text-start">
-            <i class="bi bi-check-circle-fill"></i>
-            <span>Nec feugiat nisl pretium</span>
-          </div>
-          <div class="text-start">
-            <i class="bi bi-check-circle-fill"></i>
-            <span>Nulla at volutpat diam uteera</span>
-          </div>
-          <div class="text-start">
-            <i class="bi bi-check-circle-fill"></i>
-            <span>Pharetra massa massa ultricies</span>
-          </div>
-          <div class="text-start">
-            <i class="bi bi-check-circle-fill"></i>
-            <span>Massa ultricies mi quis hendrerit</span>
-          </div>
-          <button>buy now </button>
-    
-        </div>
-        <!-- style="height: 39rem;" -->
-        <div class="col-auto shadow text-center flex-shrink-0 p-4 border border-dark" >
-          <h3 class="text-muted mt-5 ">Free Plan</h3>
-          <span class="circle "></span> 
-          <h4><sup>$</sup>"0" <span>/ month</span></h4>
-          <div class="text-start">
-            <i class="bi bi-check-circle-fill"></i>
-            <span>Quam adipiscing vitae proin</span>
-          </div>
-          <div class="text-start">
-            <i class="bi bi-check-circle-fill"></i>
-            <span>Nec feugiat nisl pretium</span>
-          </div>
-          <div class="text-start">
-            <i class="bi bi-check-circle-fill"></i>
-            <span>Nulla at volutpat diam uteera</span>
-          </div>
-          <div class="text-start">
-            <i class="bi bi-check-circle-fill"></i>
-            <span>Pharetra massa massa ultricies</span>
-          </div>
-          <div class="text-start pb-3">
-            <i class="bi bi-check-circle-fill"></i>
-            <span>Massa ultricies mi quis hendrerit</span>
-          </div>
-          <button>buy now </button>
-         </div>
-       
-         <div class="col-auto shadow text-center p-4 ">
-          <h3 class="text-muted mt-5">Free Plan</h3>
-          <span class="circle "></span> 
-          <h4><sup>$</sup>"0" <span>/ month</span></h4>
-          <div class="text-start">
-            <i class="bi bi-check-circle-fill"></i>
-            <span>Quam adipiscing vitae proin</span>
-          </div>
-          <div class="text-start">
-            <i class="bi bi-check-circle-fill"></i>
-            <span>Nec feugiat nisl pretium</span>
-          </div>
-          <div class="text-start">
-            <i class="bi bi-check-circle-fill"></i>
-            <span>Nulla at volutpat diam uteera</span>
-          </div>
-          <div class="text-start">
-            <i class="bi bi-check-circle-fill"></i>
-            <span>Pharetra massa massa ultricies</span>
-          </div>
-          <div class="text-start">
-            <i class="bi bi-check-circle-fill"></i>
-            <span>Massa ultricies mi quis hendrerit</span>
-          </div>
-          <button>buy now </button>
-        </div>   
-       
 
+    <div class="pricing-item m-5">
+      <div class="row m-5  justify-content-center">
+        <div class="col-4  text-muted pricing-item-col p-3">
+          <!-- <div class="pricing-item-col p-3" > -->
+            <h3 class=" mt-3">Free Plan</h3>
+            <!-- <span class="circle-bg">  <i class="bi bi-box"></i>   </span> -->
+            <!-- <div class="icon "> -->
+            <div class=" circle-bg text-center p-5 ">  
+              <i class="bi bi-box"></i>
+            </div>
+            <h5><sup>$</sup>0 <small>/month</small></h5>
+          
+            <ul class="list-unstyled ">
+              <li>   <i class="bi bi-check"></i>
+                <span>Quam adipiscing vitae proin</span>
+              </li>
+              <li> <i class="bi bi-check"></i>
+                <span>Nec feugiat nisl pretium</span>
+              </li> 
+              <li> <i class="bi bi-check"></i>
+                <span>Nulla at volutpat diam uteera</span>
+              </li>
+              <li> <i class="bi bi-x"></i>
+                <span><del>Pharetra massa massa ultricies </del></span>
+              </li>
+              <li> <i class="bi bi-x"></i>
+                <!-- <span class="glyphicon glyphicon-ok"></span>
+                <span class="glyphicon glyphicon-remove"></span> -->
+                <span><del> Massa ultricies mi quis hendrerit </del></span>
+              </li>
+            </ul>
+            <button class="btn-bg-green btn-bg-hollow " >Buy Now </button>
+          <!-- </div> -->
+        </div>
+<!-- ..... -->
+        <div class="col-4  text-muted pricing-item-col p-3   border border-success" >
+          <!-- <div class="pricing-item-col p-3  border border-success" > -->
+            <h3 class=" mt-3">Business Plan</h3>
+            <!-- <span class="circle-bg">  <i class="bi bi-box"></i>   </span> -->
+            <!-- <div class="icon">
+              <i class="bi bi-airplane"></i>
+            </div> -->
+            <div class=" circle-bg text-center p-5 ">  
+              <i class="bi bi-airplane"></i>
+            </div>
+            <h5><sup>$</sup>29 <small>/month</small></h5>
+          
+            <ul class="list-unstyled ">
+              <li>   <i class="bi bi-check"></i>
+                <span>Quam adipiscing vitae proin</span>
+              </li>
+              <li> <i class="bi bi-check"></i>
+                <span>Nec feugiat nisl pretium</span>
+              </li> 
+              <li> <i class="bi bi-check"></i>
+                <span>Nulla at volutpat diam uteera</span>
+              </li>
+              <li> <i class="bi bi-check"></i>
+                <span>Pharetra massa massa ultricies </span>
+              </li>
+              <li> <i class="bi bi-check"></i>
+                <span> Massa ultricies mi quis hendrerit </span>
+              </li>
+            </ul>
+            <button class="btn-bg-green btn-bg-hollow " >Buy Now </button>
+          <!-- </div> -->
+        </div>
+        <div class="col-4  text-muted pricing-item-col p-3">
+          <!-- <div class="pricing-item-col p-3" > -->
+            <h3 class=" mt-3">Developer Plan</h3>
+            <!-- <span class="circle-bg">  <i class="bi bi-box"></i>   </span> -->
+            <!-- <div class="icon">
+              <i class="bi bi-send"></i>
+            </div> -->
+            <div class=" circle-bg text-center p-5 ">  
+              <i class="bi bi-send"></i>
+             </div> 
+            <h5><sup>$</sup>49 <small>/month</small></h5>
+          
+            <ul class="list-unstyled ">
+              <li>   <i class="bi bi-check"></i>
+                <span>Quam adipiscing vitae proin</span>
+              </li>
+              <li> <i class="bi bi-check"></i>
+                <span>Nec feugiat nisl pretium</span>
+              </li> 
+              <li> <i class="bi bi-check"></i>
+                <span>Nulla at volutpat diam uteera</span>
+              </li>
+              <li> <i class="bi bi-check"></i>
+                <span>Pharetra massa massa ultricies</span>
+              </li>
+              <li> <i class="bi bi-check"></i>
+                <span> Massa ultricies mi quis hendrerit </span>
+              </li>
+            </ul>
+            <button class="btn-bg-green btn-bg-hollow " >Buy Now </button>
+          <!-- </div> -->
+        </div>
+        <!-- .... -->
       </div>
     </div>
-  </div>
+</div>
+
+<!-- faq -->
+<div class="faq m-3">
+    <div class="row justify-conent-center m-5">
+        <div class="col-3 p-5">
+          <h2>Frequently Asked <Strong>Questions</Strong></h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Duis aute irure dolor in reprehenderit</p>
+        </div>
+        <dir class="col-9 p-1">
+          <div class="accordion" id="accordionExample">
+            
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button " type="button" data-bs-toggle="collapse"
+                 data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                   <h5><span>1.</span> Non consecteture a erat nam at lectus urna duis? </h5>
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" 
+                 data-bs-parent="#accordionExample">
+                 <!-- data-mdb-parent="#accordionExample" -->
+                <div class="accordion-body">
+                  Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingsec">
+                <button class="accordion-button " type="button" data-bs-toggle="collapse"
+                 data-bs-target="#collapsesec" aria-expanded="true" aria-controls="collapsesec">
+                   <h5><span>2.</span> Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?  </h5>
+                </button>
+              </h2>
+              <div id="collapsesec" class="accordion-collapse collapse show" aria-labelledby="headingsec" 
+                 data-bs-parent="#accordionExample">
+                 <!-- data-mdb-parent="#accordionExample" -->
+                <div class="accordion-body">
+                  Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum 
+                      velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec 
+                      pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus
+                       turpis massa tincidunt dui.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button " type="button" data-bs-toggle="collapse"
+                 data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                   <h5><span>3.</span> Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi?  </h5>
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" 
+                 data-bs-parent="#accordionExample">
+                 <!-- data-mdb-parent="#accordionExample" -->
+                <div class="accordion-body">
+                  leifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer 
+                    enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis 
+                    convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button " type="button" data-bs-toggle="collapse"
+                 data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                   <h5><span>4.</span> Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?   </h5>
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" 
+                 data-bs-parent="#accordionExample">
+                 <!-- data-mdb-parent="#accordionExample" -->
+                <div class="accordion-body">
+                  Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id
+                     donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit
+                      ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button " type="button" data-bs-toggle="collapse"
+                 data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                   <h5><span>5.</span> Tempus quam pellentesque nec nam aliquam sem et tortor consequat?    </h5>
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" 
+                 data-bs-parent="#accordionExample">
+                 <!-- data-mdb-parent="#accordionExample" -->
+                <div class="accordion-body">
+                  Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in.
+                    Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. 
+                    Purus gravida quis blandit turpis cursus in.
+                </div>
+              </div>
+            </div>
+            
+         
+          </div>
+        </dir>
+    </div>
+</div>
+
 
 </div>
 </body>
