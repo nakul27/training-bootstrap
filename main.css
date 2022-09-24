@@ -50,27 +50,39 @@ a:hover{
 img{
     width:100%;
 }
-
 .text-center {
     text-align: center;
 }
+.c{
+    border:2px solid blue;
+}
 
+/* common setting for all section header-sec-heading */
+.sec-heading{
+    text-align: center;
+}
+.sec-heading h2{
+    font-size: 32px;
+    font-weight: 600;
+    color:black;
+    /* text-align: center; */
+    position: relative;
+    padding-bottom:40px;
+   
+}
+/* green border line below sec heading*/
+.sec-heading h2:after{
+    content: "";
+    position: absolute;
+    display:block;
+    width:50px;
+    height:3px;
+    left:48%;
+    bottom:30%;
+    background-color: #008374;
+}
 
-.dropdown-menu .dropdown-item{
-    color: var(--bg-navbar);
-    font-weight: 500;
-    border:none;
- } 
- .dropdown-menu .dropdown-item:hover{
-    color:red;
-    font-weight: 500;
-    background-color: #fff;
-  } 
- /* not working */
- .dropdown-menu .dropdown-item ::selection a{
-    color:red;
- }
-
+/****** All buttons used in impact/ callto function /form******/
 .btn-bg-green{
     color:#fff;
     background-color:var(--background-color-green);
@@ -79,7 +91,6 @@ img{
     font-weight: 600;
     padding:14px 50px;
     border:1px solid rgba(255, 255, 255, .3);
-
 }
 .btn-bg-trensparent{
     border:2px solid rgb(255,255,255);
@@ -93,80 +104,194 @@ img{
     color:#008374;
 }
 
-
+/****** i tag  icon comman setting******/
 i{
     color: rgba(255, 255, 255, 0.5);
     font-size: 32px;
-    margin-right: 8px;
+    /* margin-right: 8px; */
 }
 .btn-video{
     margin-left: 25px;
 }
-.btn-video-big i{
+/* .btn-video-big i{
     font-size:100px;
     color:#008374;
+} */
 
+/***** card setting   *****/
+.card-css{
+    border-radius: 10px!important;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+
+/****** all types of social icons used in header/ team /footer ******/
+/* social icon -used header bar */
+.social{
+    display: flex;
+ }
+.social i{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* .backcircle-40-center-align a tag setting for social  class
+used in team section */
+.backcircle-40-center-align a{
+    width:40px;
+    height:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid #a2a2a2;
+    border-radius: 50%;
+    color:#a2a2a2;
+}
+
+/* .backcircle-40-center-align i tag setting for social class
+used in team section */
+.backcircle-40-center-align a i{
+    font-size: 18px;
+    color: #a2a2a2;
+    /* margin-left:5px; */
+}
+.backcircle-40-center-align a:hover{
+   border:1px solid #008374;
+}
+.backcircle-40-center-align a:hover i{
+    color:#008374;
+}
+
+/* social back circle used in footer  */
+.backcircle-30-center-align a{
+    height:30px;
+    width:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid rgba(255,255,255,0.6)!important;
+    border-radius: 50%;
+    /* color:rgba(255,255,255,0.6)!important; */
+ 
+}
+/* social back circle used in footer  */
+.backcircle-30-center-align a i{
+    font-size: 15px;
+    color: rgba(255,255,255,0.6)!important;
+    /* margin-left:5px; */
+ 
+}
+/* social back circle used in footer  */
+.backcircle-30-center-align a:hover{
+    color:rgba(255,255,255,1)!important;
+    border:1px solid rgba(255,255,255,1)!important;
+}
+
+.backcircle-30-center-align a:hover i{
+    color:rgba(255,255,255,1)!important;
+ }
+
+ /*********** circle behind icons used in about us/call to function/pricing   ************/
+.circle-bg{
+    width:90px;
+    height:90px;
+    margin: auto;
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .circle-bg:before{
     content:" ";
-    display:block;
+    /* display:flex;
+    justify-content: center;
+    align-items: center; */
     width:80px;
     height:80px;
     background-color: #008374;
     border-radius: 50%;
+    display:inline-block;
     position: absolute;
-    top:20%;
-    left:45%;
-    margin: auto;
-}
+    /* top:10%;
+    left:9%; */
+ }
 
 .circle-bg  i{
     font-size: 32px;
     color:#fff;
     position: absolute;
-    top:23%;
-    left:47%;
+    /* top:29%;
+    left:29%; */
     z-index: 1;
     line-height: 0;
-}
-
-
-
-.c{
-    border:2px solid blue;
-}
-/* .border-none{
-    border:none;
-} */
-.sec-heading{
     text-align: center;
+    /* margin-left:0px; */
 }
-.sec-heading h2{
-    font-size: 32px;
-    font-weight: 600;
-    color:black;
-    /* text-align: center; */
+/******** thumnail setting used in testimonial and blog************/
+.thumbnail-90{
+    width:90px;
+    height:90px;
+    border-radius: 50%;
+}
+.thumbnail-60{
+    width:60px;
+    height:60px;
+    border-radius: 50%;
+}
+/******** icons and circle behind icon used in service ************/
+/* .service-item .card .icon{ */
+.icon{    
+    width: 48px;
+    height: 48px;
     position: relative;
-    padding-bottom:40px;
+ 
 }
-.sec-heading h2:after{
-    content: "";
-    position: absolute;
-    display:block;
-    width:50px;
-    height:3px;
-    left:48%;
-    bottom:30%;
-    background-color: #008374;
+/* green circle behind icon  */
+/*.service-item .card .icon::before{ */
+.icon::before{
+     position: absolute;
+     content: "";
+     height: 100%;
+     width: 100%;
+     background:#eeeeee; 
+     border-radius: 50px;
+     z-index: 1;
+     top: 40px;
+     right: -35px;
+}
+  
+/* left align icon from circle */
+/*.service-item .card i{    */
+.icon i{
+     color:#000;
+     font-weight: 900;
+     font-size: 56px;
+     z-index: 2;
+     position: absolute;
+     top:30px;
+     left:12px;
+}
+   
+/* icon-center-align is child of parent icon class inherting icon class property 
+used in contact sec  */
+.icon-center-align::before{
+    background:#33A89B;
+    top: 6px;
+    left: -2px;
+}
+.icon-center-align i{
+    color:#fff;
+    font-size: 20px;
+    z-index: 2;
+    top:13px;
+    left:10px;
 }
 
 
 
 
-
-
-
+/************************************************/
 /*header */
 .header1{
     background-color: #00796B;
@@ -208,13 +333,31 @@ nav li{
     padding:10px 10px 0 10px;
     font-weight: bolder;
 }
-nav li:first-child{
+nav li:first-child a{
+/* nav li:first-child{ */
     border-bottom: 2PX SOLID #f85a40;
 }
-
 nav li a:hover{
+/* nav li:hover{ */
     color:#fff;
     border-bottom: 2px solid #f85a40;
+}
+
+.dropdown-menu li a{
+    color: var(--bg-navbar);
+    font-weight: 500;
+    border: none !important;;
+ } 
+.dropdown-menu li a:hover{    
+    color:red!important;
+    font-weight: 500;
+    background-color: #fff!important;
+  } 
+
+.dropdown-menu li a:hover {
+    color: red!important;
+    font-weight: 500;
+    background-color: #fff;
 }
 
 
@@ -237,6 +380,10 @@ nav li a:hover{
     font-size: 16px;
     opacity: .8;
 }
+.section-1 .impact .btn-bg-green:hover{
+    border:1px solid #fff;
+    opacity: 1;
+}
 
 /* icon-Box-row */
 .icon-card{
@@ -254,7 +401,6 @@ nav li a:hover{
 /* about us */
 .about-us {
     margin:80px;
-    /* background-color:black; */
 }
 .about-us p{
     color:#A0A0A0;;
@@ -265,6 +411,15 @@ nav li a:hover{
     padding-right:2px;
     color: var(--bg-navbar);
     font-size: 20px;
+}
+/* not working */
+.about-us .circle-bg i {
+    color:#fff!important;
+    /* position: absolute; */
+    /* top: 100%; */
+    /* bottom:50%;
+    left: 50%;
+    border:1px solid red; */
 }
 
 
@@ -293,10 +448,13 @@ nav li a:hover{
 
 
 /* call to function */
+.calltofunction{
+    border-radius: 15px;
+}
 .calltofunction-video  {
     position: relative;
 }
-.calltofunction-video .carousel-item:after{
+.calltofunction-video .carousel-item .darken-img:after{
     content: " ";
     position: absolute;
     top:0;
@@ -310,8 +468,9 @@ nav li a:hover{
     color:red;
     font-size: 20px;
     position: absolute;
-    top:30%;
+    top:10%;
     margin:10px -100px;
+    /* margin:auto; */
    
 }
 .calltofunction-item h3{
@@ -319,13 +478,16 @@ nav li a:hover{
     font-size: 32px;
     font-weight: 700;
     text-align: center;
+    margin-bottom: 20px;
 }
 .calltofunction-item p{
     color:#fff;
     font-size: 18px;
+    margin-bottom: 20px;
 }
-.accordion-button:not(.collapsed){
-    color: red !important;
+.calltofunction-video .calltofunction-item .btn-bg-green:hover{
+    background-color: #008374;
+    border:none;
 }
 
 
@@ -339,43 +501,28 @@ nav li a:hover{
 
 .service-item .card h5{
     color:#000;
-
+    text-align: start;
+    border-bottom: 4px solid #eeeeee;
+    margin-top: 10px;
 }
+.service-item .card .card-body{
+    margin-top:50px;
+}
+
+.service-item .card:hover h5{
+    border-bottom: 4px solid #008374;
+}
+
 .service-item .card p{
     color:var(--p-color);
-    /* text-align: center; */
+    text-align: start;
 }
 .service-item .card span{
     color:var(--bg-navbar);
+    text-align: start;
 }
 
-.service-item .card .icon{
-    width: 48px;
-    height: 48px;
-    position: relative;
-    margin-bottom: 50px;
-}
 
-.service-item .card .icon::before{
-    position: absolute;
-    content: "";
-    height: 100%;
-    width: 100%;
-    background:#eeeeee; 
-    border-radius: 50px;
-    z-index: 1;
-    top: 50px;
-    right: -20px;
-}
-.service-item .card i{
-    color:#000;
-    font-weight: 900;
-    font-size: 56px;
-    z-index: 2;
-    position: absolute;
-    top:40px;
-    left:0px;
-}
 .service-item .card a:hover .icon::before{
       background-color: #008374;
 }
@@ -387,11 +534,7 @@ nav li a:hover{
 .testimonial #header p{
     color: p-color;
 }
-.testimonial .thumbnail{
-    width:90px;
-    height:90px;
-    border-radius: 50%;
-}
+
 .testimonial .card i{
     font-size: 14px;
 }
@@ -400,27 +543,25 @@ nav li a:hover{
 .portfolio{
     background-color: var(--bg-portfolio);
 }
-.portfolio .portfolio-item a h6{
-    color:#000;
+.portfolio .portfolio-item li a {
+    color:#000!important;
     font-size: 18px;
 }
-.portfolio .portfolio-item  a h6:first-child a h6{
-    color:#008374;
+.portfolio .portfolio-item li  {
+     padding:10px;
 }
-.portfolio .portfolio-item  a h6:hover a h6{
-    color:#008374;
+.portfolio .portfolio-item li:first-child a{
+    color:#008374!important;
+}
+.portfolio .portfolio-item li:hover a{
+    color:#008374!important;
 }
 
+
 /* team */
-.team .team-item .social a:hover i{
-    color:#008374;
-}
-/* .team .team-item .social a:hover a{
-    border :1px solid #008374;
-    border-radius: 50%;
-    color: #008374;
-   
-} */
+/* not required  */
+
+
 
 /* pricing */
 .pricing{
@@ -467,79 +608,142 @@ nav li a:hover{
 }
 
 
-/* .pricing .icon:before{
-    position: absolute;
-    content: "";
-    height: 86px;
-    width: 86px;
-    border-radius: 50%;
-    background: #87c1bb;
-    transition: all 0.3s ease-out 0s;
-    transform: translateZ(-1px);
-}
-.pricing .icon{
-    margin: 30px auto 30px auto;
-    width: 70px;
-    height: 70px;
-    background: var(--color-primary);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: 0.3s;
-    transform-style: preserve-3d;
-}
-.pricing .icon i {
-    color: #fff;
-    font-size: 28px;
-    transition: ease-in-out 0.3s;
-    line-height: 0;
-}
-.pricing .icon::after {
-    position: absolute;
-    content: "";
-    height: 102px;
-    width: 102px;
-    border-radius: 50%;
-    background: #d2eeeb;
-    transition: all 0.3s ease-out 0s;
-    transform: translateZ(-2px);
-} */
+
 
 /* faq */
+/* chnaging color of accordation header text and background color */
+.faq .accordion-button:not(.collapsed){
+    /* color: #008374!important; */
+    color:black!important;
+    background-color: #fff!important;
+    box-shadow: none;
+}
+.faq .accordion-button{
+    /* color:black!important; */
+    color: #008374!important;
+}
 
+/* not working */
+.faq .accordion-button.collapsed{
+    color: #008374!important;
+    /* color:#000!important; */
+  }
+/* gapping between accordation lines  */
+.faq .accordion-item {
+    border: 0;
+    margin-bottom: 20px;
+    box-shadow: 0px 5px 25px 0px rgb(0 0 0 / 6%);
+    border-radius: 10px;
+}
+ /* removing blue border from accordation */
+.faq .accordion-button:focus {
+    box-shadow: none;
+    border-color: rgba(0,0,0,.125);
+}
+/* Removes down arrow from accordation */
+.faq .accordion-button::after {
+    background-image: initial;
+  }
+  
+/* Removes up arrow from accordation */
+.faq .accordion-button:not(.collapsed)::after {
+    background-image: initial;
+  }
+
+
+
+ 
+  /* Blog */
+.blog {
+    background-color: #F6F6F6;
+  }
+.blog .card-body a{
+    color:black;
+}
+.blog .card-body a:hover{
+    color:#008374!important;
+}
+.blog .card-body h3{
+    font-size: 22px;
+}
+
+/* contact */
+.contact {
+    background-color: #FFFFFF;
+}
+.contact-item .panel-container{
+    background-color: #008374;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    /* height:500px; */
+    padding:20px;
+}
+.contact-item .panel-container .panel-item{
+    background-color: #009282;
+    border-radius: 15px;
+    text-align:start;
+    margin-bottom: 20px;
+    padding:10px;
+    /* width:100%; */
+ 
+}
+
+.contact-item .panel-container .panel-item h4{
+    font-size: 20px;
+    color:#fff;
+}
+.contact-item .panel-container .panel-item h6{
+    font-size: 16px;
+    color:#fff;
+    opacity: 0.8;
+}
+
+.contact-item .form-panel{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+}
+
+/* overridding  */
+.contact .contact-item .form-panel .form-control:focus {
+    border-color: 2px solid #008374;
+}
+
+
+/* footer */
+.footer-sec{
+    background-color: var(--bg-navbar);
+    color:#fff;
+}
+.footer-sec a{
+    color: #fff!important;
+}
+
+.footer-sec a h6{
+    font-size: 14px;
+    font-weight: 400;
+    opacity: .6;
+    padding:5px;
+}
+.footer-sec h6{
+    font-size: 14px;
+    font-weight: 600;
+}
+.footer-sec a h6:hover{
+    opacity: .9;
+}
+.footer-sec .footer-info p{
+    font-size: 14px;
+}
+.footer-sec .contact-sec h6{
+    font-size: 15px;
+    font-weight: 400;
+    opacity: .9;
+    /* px-4 */
+    padding-left:30px;
+}
 
 
 /* common  */
-
-.margin-top-50{
-    margin-top:50px;
-}
-.card-css{
-    border-radius: 10px!important;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-}
-.social{
-    display: flex;
-    justify-content: space-around;
-}
-
-.social  a{
-    height:40px;
-    width:40px;
-    border :1px solid #a2a2a2;
-    border-radius: 50%;
-    color: #a2a2a2;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-.social i{
-    font-size: 18px;
-    color: #a2a2a2;
-    margin-left:5px;
-}
-
 /* text-decoration-none */
 
