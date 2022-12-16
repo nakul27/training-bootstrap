@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/stylesheets/main2.css">
+    <script src="assets/javascript/app.js" defer></script>
+    <script src="https://kit.fontawesome.com/b06605e970.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- bootstrap iconslink -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+</head>
+<body>
+<!-- sidebar offcanvas -->
+<div class="offcanvas offcanvas-start" id="demo">
+  <div class="offcanvas-header row ">
+    <!-- <h5 class="offcanvas-title" >Offcanvas</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button> -->
+    <div class="d-flex justify-content-between align-items-between padding-10 box-shadow-bottom-right ">
+       <a href="#">
+         <img src="../JS-Cuba Page-04/assets/logo cuba.png" alt="">
+       </a>
+       <a href="#">
+        <button class="btn btn-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
+          <i class="material-icons" style="font-size:24px">apps</i>
+        </button>
+       </a>
+    </div>
+  </div>
+  <div class="offcanvas-body">
+    <div class="d-flex flex-column justify-content-between  box-shadow-bottom-right sidebar">
+      <!-- General    -->
+        <div class="sidebar-header padding-10 ">
+          <h6>General</h6>
+          <p>Dashboards,Widgets & Layout.</p>
+        </div>
+        <div class="sidebar-body ">
+         <!-- accordation-general -->
+          <div class="accordion accordion-flush" id="accordionFlush-Gen">
+           
+            <div class="accordion-item">
+             <h2 class="accordion-header" id="flush-heading-Gen">
+              
+               <button class="accordion-button collapsed" type="button"
+                data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                 aria-expanded="false" aria-controls="flush-collapseOne">
+                 <!-- Accordion Item #1 --> 
+                  
+                    <ul>
+                      <li> <a href=""> <i class="bi bi-house-door"></i><span >Dashboard</span></a></li>
+                      <li class="px-auto"><a href=""><span class="badge bg-color-blue color-blue">4</span></a></li>
+                    </ul>
+                  <!-- </a> -->
+                </button>
+              
+             </h2>
+             <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+              data-bs-parent="#accordionFlush-Gen">
+               <div class="accordion-body">
+                <!-- Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body. -->
+                <ul>
+                  <li > <a href="#">
+                      <i class="bi bi-dash-lg"></i>
+                      <span class="text-center">Default</span>   </a>
+                  </li>
+                  <li> <a href="#">
+                     <i class="bi bi-dash-lg"></i>
+                     <span>Eccomerce</span>   </a>
+                   </li>
+                </ul>
+              </div>
+             </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                <a href="">
+                  <ul>
+                    <li><i class="bi bi-house-door"></i><span >Widgets</span></li>
+                    <!-- <li class="px-auto"><span class="badge bg-color-blue color-blue">4</span></li> -->
+                  </ul>
+                </a>
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <ul>
+                  <li > <a href="#">
+                      <i class="bi bi-dash-lg"></i>
+                      <span class="text-center">Gernal</span>   </a>
+                  </li>
+                  <li> <a href="#">
+                     <i class="bi bi-dash-lg"></i>
+                     <span>Chart</span>   </a>
+                   </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                <a href="">
+                  <ul>
+                    <li><i class="bi bi-house-door"></i><span >Page Layout</span></li>
+                  </ul>
+                </a>
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <ul>
+                  <li > <a href="#">
+                      <i class="bi bi-dash-lg"></i>
+                      <span class="text-center">Boxed</span>   </a>
+                  </li>
+                  <li> <a href="#">
+                     <i class="bi bi-dash-lg"></i>
+                     <span>RTL</span>   </a>
+                   </li>
+                   <li> <a href="#">
+                    <i class="bi bi-dash-lg"></i>
+                    <span>Dark Layout</span>   </a>
+                  </li>
+                  <li> <a href="#">
+                    <i class="bi bi-dash-lg"></i>
+                    <span>Hide Nav Scroll</span>   </a>
+                  </li>
+                  <li> <a href="#">
+                    <i class="bi bi-dash-lg"></i>
+                    <span>Footer Light</span>   </a>
+                  </li>
+                  <li> <a href="#">
+                    <i class="bi bi-dash-lg"></i>
+                    <span>Footer Dark</span>   </a>
+                  </li>
+                  <li> <a href="#">
+                    <i class="bi bi-dash-lg"></i>
+                    <span>Footer Fixed</span>   </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        </div>
+
+        <!-- Application   -->
+        <div class="sidebar-header padding-10 ">
+          <h6>Applications</h6>
+          <p>Ready to use App</p>
+        </div>
+        <div class="sidebar-body ">
+          <div class="accordion accordion-flush" id="accordionFlush-proj">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-heading-proj">
+                <button class="accordion-button collapsed" type="button"
+                 data-bs-toggle="collapse" data-bs-target="#flush-collapseOne-proj"
+                  aria-expanded="false" aria-controls="flush-collapseOne-proj">
+                  <!-- Accordion Item #1 --> 
+                     <ul>
+                       <li> <a href=""> <i class="bi bi-house-door"></i><span >Project</span></a></li>
+                       <li class="px-auto"><a href=""><span class="badge bg-color-blue color-blue">New</span></a></li>
+                     </ul>
+                   <!-- </a> -->
+                 </button>
+              </h2>
+ 
+              <div id="flush-collapseOne-proj" class="accordion-collapse collapse" aria-labelledby="flush-headingOne-proj"
+               data-bs-parent="#accordionFlush-proj">
+                <div class="accordion-body">
+                 <ul>
+                   <li > <a href="#">
+                       <i class="bi bi-dash-lg"></i>
+                       <span class="text-center">Project List</span>   </a>
+                   </li>
+                   <li> <a href="#">
+                      <i class="bi bi-dash-lg"></i>
+                      <span>Create New</span>   </a>
+                    </li>
+                 </ul>
+               </div>
+              </div>
+           </div>
+           </div>
+           <div class="margin-left-30">
+            <a href="#">
+            <i class="bi bi-house-door"></i><span>File Manager</span>
+            </a>
+          </div>
+          <div class="margin-left-30">
+            <a href="#">
+            <i class="bi bi-house-door"></i><span>Kanban Board</span>
+            </a>
+          </div>
+          <div class="accordion accordion-flush" id="accordionFlush-Ecc">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-heading-Ecc">
+                <button class="accordion-button collapsed" type="button"
+                 data-bs-toggle="collapse" data-bs-target="#flush-collapseOne-Ecc"
+                  aria-expanded="false" aria-controls="flush-collapseOne-Ecc">
+                  <!-- Accordion Item #1 --> 
+                     <ul>
+                       <li> <a href=""> <i class="bi bi-house-door"></i><span >Eccomerce</span></a></li>
+                       <li class="px-auto"><a href=""><span class="badge bg-color-blue color-blue">Latest</span></a></li>
+                     </ul>
+                   <!-- </a> -->
+                 </button>
+              </h2>
+ 
+              <div id="flush-collapseOne-Ecc" class="accordion-collapse collapse" aria-labelledby="flush-headingOne-Ecc"
+               data-bs-parent="#accordionFlush-Ecc">
+                <div class="accordion-body">
+                 <ul>
+                   <li > <a href="#">
+                       <i class="bi bi-dash-lg"></i>
+                       <span class="text-center">Product</span>   </a>
+                   </li>
+                   <li> <a href="#">
+                      <i class="bi bi-dash-lg"></i>
+                      <span>Product Page</span>   </a>
+                    </li>
+                    <li> <a href="#">
+                      <i class="bi bi-dash-lg"></i>
+                      <span>Product list</span>   </a>
+                    </li>
+                    <li> <a href="#">
+                      <i class="bi bi-dash-lg"></i>
+                      <span>Payment Details</span>   </a>
+                    </li>
+                    <li> <a href="#">
+                      <i class="bi bi-dash-lg"></i>
+                      <span>Order History</span>   </a>
+                    </li>
+                    <li> <a href="#">
+                      <i class="bi bi-dash-lg"></i>
+                      <span>Invoice</span>   </a>
+                    </li>
+                    <li> <a href="#">
+                      <i class="bi bi-dash-lg"></i>
+                      <span>Cart</span>   </a>
+                    </li>
+                    <li> <a href="#">
+                      <i class="bi bi-dash-lg"></i>
+                      <span>Whishlist</span>   </a>
+                    </li>
+                    <li> <a href="#">
+                      <i class="bi bi-dash-lg"></i>
+                      <span>Checkout</span>   </a>
+                    </li>
+                    <li> <a href="#">
+                      <i class="bi bi-dash-lg"></i>
+                      <span>Pricing </span>   </a>
+                    </li>
+                 </ul>
+               </div>
+              </div>
+           </div>
+          </div>
+
+          <div class="accordion accordion-flush" id="accordionFlush-Email">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-heading-Email">
+                <button class="accordion-button collapsed" type="button"
+                 data-bs-toggle="collapse" data-bs-target="#flush-collapseOne-Email"
+                  aria-expanded="false" aria-controls="flush-collapseOne-Email">
+                  <!-- Accordion Item #1 --> 
+                     <ul>
+                       <li> <a href=""> <i class="bi bi-house-door"></i><span >Email</span></a></li>
+                       <li class="px-auto"><a href=""><span class="badge bg-color-blue color-blue">New</span></a></li>
+                     </ul>
+                   <!-- </a> -->
+                 </button>
+              </h2>
+ 
+              <div id="flush-collapseOne-Email" class="accordion-collapse collapse" aria-labelledby="flush-headingOne-Email"
+               data-bs-parent="#accordionFlush-Email">
+                <div class="accordion-body">
+                 <ul>
+                   <li > <a href="#">
+                       <i class="bi bi-dash-lg"></i>
+                       <span class="text-center">Email App</span>   </a>
+                   </li>
+                   <li> <a href="#">
+                      <i class="bi bi-dash-lg"></i>
+                      <span>Email Compose</span>   </a>
+                    </li>
+                 </ul>
+               </div>
+              </div>
+           </div>
+           </div>
+
+           <div class="accordion accordion-flush" id="accordionFlush-Chat">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-heading-Chat">
+                <button class="accordion-button collapsed" type="button"
+                 data-bs-toggle="collapse" data-bs-target="#flush-collapseOne-Chat"
+                  aria-expanded="false" aria-controls="flush-collapseOne-Chat">
+                  <!-- Accordion Item #1 --> 
+                     <ul>
+                       <li> <a href=""> <i class="bi bi-house-door"></i><span >Chat</span></a></li>
+                       <li class="px-auto"><a href=""><span class="badge bg-color-blue color-blue">New</span></a></li>
+                     </ul>
+                   <!-- </a> -->
+                 </button>
+              </h2>
+ 
+              <div id="flush-collapseOne-Chat" class="accordion-collapse collapse" aria-labelledby="flush-headingOne-Chat"
+               data-bs-parent="#accordionFlush-Chat">
+                <div class="accordion-body">
+                 <ul>
+                   <li > <a href="#">
+                       <i class="bi bi-dash-lg"></i>
+                       <span class="text-center">Chat App</span>   </a>
+                   </li>
+                   <li> <a href="#">
+                      <i class="bi bi-dash-lg"></i>
+                      <span>Video Chat</span>   </a>
+                    </li>
+                 </ul>
+               </div>
+              </div>
+           </div>
+           </div>
+
+
+        </div> 
+        </div>
+    </div>
+
+
+  </div>
+</div>
+
+
+<div id="container-fluid">
+  <!-- <div class="sidebar">
+    <div class="logo-wrapper col-3 d-flex justify-content-between padding-10 box-shadow-bottom-right">
+         <a href="#">
+           <img src="../JS-Cuba Page-04/assets/logo cuba.png" alt="">
+         </a>
+         <a href="#">
+          <i class="material-icons" style="font-size:24px">apps</i>
+         </a>
+      
+    </div>
+  </div> -->
+
+
+
+
+
+  <div> <!-- page-body --> 
+  <!-- Row- Header List -->
+    <div class="row m-1 box-shadow-bottom-right">
+      <div class="col-6 d-flex  justify-content-start ">
+        <ul >
+            <li class="bg-color-blue font-bold ">
+                <a href="#">
+                  <i class="material-icons color-blue" style="font-size:18px">apps</i>
+                  <span class="color-blue ">Bonus UI</span>
+                </a>
+              </li>
+              <li class="bg-color-pink font-bold">
+                  <a href="#">
+                    <i class="material-icons color-pink" style="font-size:18px">apps</i>
+                    <span class="color-pink">Level Menu</span>
+                  </a>
+              </li>
+              <li>
+                <button class="btn btn-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
+                  <i class="material-icons" style="font-size:24px">apps</i>
+                </button>
+              </li>
+        </ul>
+      </div>
+      <div class="col-6 d-flex  justify-content-end ">
+        <ul >
+            <li><a href="#">  <i class="fa fa-search" ></i> </a></li>
+    <!-- Notification -->
+             <!-- dropdown menus-->
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">
+                    <i class="bi bi-bell  position-relative"> </i>
+                     <span class="position-absolute  translate-middle badge rounded-pill bg-danger">
+                        4+   <span class="visually-hidden">unread messages</span>
+                     </span>
+                </a>
+                 <!-- dropdown menus items -->
+                <ul class=" dropdown-menu notification-items">
+                    <!-- /*border-bottom border-dark */ -->
+                    <a href="#">
+                        <h6 class="text-center text-dark padding-20">Notification</h6>
+                        <div class="dropdown-divider"></div>
+                    
+                        <!-- dropdown Menu- Items  -->
+                        <li class="border-start border-5 border-primary">
+                           <a class="dropdown-item left" href="#">Delivery Processing  
+                             <span class="right text-primary">10 min.</span>
+                           </a>
+                        </li>
+                        <li class="border-start border-5 border-success" >
+                           <a class="dropdown-item left " href="#">Order Complete
+                             <span class="right text-sucess">1 hr</span>    
+                           </a>
+                        </li>
+                        <li class="border-start border-5 border-info"> 
+                           <a class="dropdown-item left " href="#">Tickets Generated
+                           <span class="right text-info">3 hr</span>
+                        </a>
+                        </li>
+                        <li class="border-start border-5 border-warning">
+                           <a class="dropdown-item left " href="#">Delivery Complete
+                              <span class="right text-warning">6 hr</span>    
+                               </a>
+                        </li>
+                          <a href="#" >
+                             <h6 class="text-center text-primary padding-20">Check All</h6>
+                          </a>
+                      </a>  
+                    </a>    
+                  </ul> 
+            </li>
+    <!-- Bootmark         -->
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">
+                  <i class="bi bi-star"></i> 
+                </a>
+                <!-- dropdown menu-item -->
+                <ul class=" dropdown-menu bookmark-items ">
+                   <a href="#">
+                     <h6 class="text-center text-dark padding-20">Bookmark</h6>
+                     <div class="dropdown-divider"></div>
+                   </a>
+                   <li class="d-flex justify-content-between">
+                     <div>
+                        <a href="#">
+                            <i class="bi bi-badge-3d-fill"></i>
+                            <span>Forms</span>
+                         </a>
+                     </div>
+                     <div>
+                        <a href="#">
+                            <i class="bi bi-person"></i>
+                            <span>Profile</span>
+                        </a>
+                     </div>
+                     <div>
+                        <a href="#">
+                            <i class="bi bi-table"></i>
+                            <span class="text-center">Tables</span>
+                        </a>
+                     </div>
+                 </li>
+                 <div >
+                    <a href="" >
+                      <h6  class="text-center text-primary padding-20">ADD NEW BOOKMARK</h6>
+                    </a>
+                 </div>
+                </ul>     
+            </li>
+    <!-- Cart-->
+            <li class="dropdown">
+               <a href="#" class="dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">
+                <i class="bi bi-cart position-relative"></i>
+                <span class="position-absolute  translate-middle badge rounded-pill bg-primary">
+                    2+   <span class="visually-hidden">unread messages</span>
+                 </span>
+               </a>
+               <!-- dropdown menu-item -->
+                 <div class=" dropdown-menu cart-items ">
+                    <a href="#">
+                        <h6 class="text-center text-dark padding-20">Cart</h6>
+                        <div class="dropdown-divider"></div>
+                    </a>
+                    <div class="d-flex  justify-content-between padding-10">
+                        <div>
+                            <img src="../JS-Cuba Page-04/assets/cart-img.jpg" alt="" class="img-H80-W60">
+                        </div>
+                        <div>
+                            <span>Furniture Chair for Home</span>
+                            <div class="d-flex flex-row justify-content-start">
+                              <span><i class="bi bi-dash-circle "></i></span>
+                              <span>1</span>
+                              <span><i class="bi bi-plus-circle"></i></span>
+                            </div>
+                            <span>$500</span>
+                        </div>
+                        <div class="text-danger">
+                            <i class="bi bi-x-circle"></i>
+                        </div>
+                    </div>
+                    <div class="d-flex  justify-content-between padding-10">
+                        <div>
+                            <img src="../JS-Cuba Page-04/assets/cart-img.jpg" alt="" class="img-H80-W60">
+                        </div>
+                        <div>
+                            <span>Furniture Chair for Home</span>
+                            <div class="d-flex flex-row justify-content-start">
+                              <span><i class="bi bi-dash-circle "></i></span>
+                              <span>1</span>
+                              <span><i class="bi bi-plus-circle"></i></span>
+                            </div>
+                            <span>$500</span>
+                        </div>
+                        <div class="text-danger">
+                            <i class="bi bi-x-circle"></i>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between bg-light padding-10">
+                        <span>Order Total:</span>
+                        <span>$1000:00</span>
+                    </div>
+                    <a href="#">
+                        <h6 class="text-center text-primary padding-20">Go To Your Cart</h6>
+                    </a>
+                    <div class="text-center">
+                      <a href="#" >
+                        <button class="bg-primary">
+                            <span class="text-light">Check Out</span>
+                        </button>
+                    </a>
+                    </div>
+                </div>     
+            </li>
+    <!-- message         -->
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">
+                    <i class="material-icons" >messenger</i>
+                </a>
+                <!-- dropdown menu-item -->
+                <div class=" dropdown-menu message-items ">
+                  <a href="#">
+                    <h6 class="text-center text-dark padding-20">Message</h6>
+                    <div class="dropdown-divider"></div>
+                  </a>
+                  <div class="d-flex  justify-content-between align-items-between padding-5">
+                    <div class="">
+                      <img src="../JS-Cuba Page-04/assets/terresa.jpg" alt="" class="img-50">
+                    </div>
+                    <div class="padding-5">
+                      <span class="font-bold">Teressa</span>
+                        <div class="d-flex flex-row justify-content-start">
+                           <p>Reference site about Lorem Ipsum, give information on its origins.</p>
+                        </div>
+                      <span>3 hours ago</span>
+                      </div>
+                      <div class="position-relative">
+                        <span class="position-absolute translate-middle badge rounded-pill bg-primary badge-1">
+                          2+   <span class="visually-hidden">unread messages</span>
+                       </span>
+                      </div>
+                  </div>
+                  <div class="d-flex  justify-content-between  padding-5">
+                    <div class="padding-5">
+                      <img src="../JS-Cuba Page-04/assets/terresa.jpg" alt="" class="img-50">
+                    </div>
+                    <div>
+                      <span class="font-bold">Teressa</span>
+                        <div class="d-flex flex-row justify-content-start">
+                           <p>Reference site about Lorem Ipsum, give information on its origins.</p>
+                        </div>
+                      <span>3 hours ago</span>
+                    </div>
+                    <div class="position-relative">
+                        <span class="position-absolute translate-middle badge rounded-pill bg-primary badge-1">
+                          2+   <span class="visually-hidden">unread messages</span>
+                       </span>
+                    </div> 
+                  </div>
+                    <a href="#">
+                      <h6 class="text-center text-primary padding-20">View All</h6>
+                    </a>  
+            </li>
+    <!-- Admin         -->
+            <li class="dropdown">
+               <a href="#">
+                <div class="d-flex align-items-center ">
+                  <img class="rounded img-30" src="../JS-Cuba Page-04//assets/profile.jpg" alt="#">
+                  <div class="d-flex flex-column padding-5">
+                    <span class="span-14 font-bold">Emay Walker</span>
+                    <span class="span-14 ">Admin
+                      <i class="middle fa fa-angle-down"></i>
+                    </span>
+                   </div> 
+                </div>
+              </a>
+               <div class=" dropdown-menu admin-items ">
+                <ul>
+                    <li>
+                        <i class="bi bi-person"></i>
+                        <span>Account</span>
+                    </li>
+                    <li>
+                        <i class="bi bi-person"></i>
+                        <span>Inbox</span>
+                    </li>
+                    <li>
+                        <i class="bi bi-person"></i>
+                        <span>Taskboard</span>
+                    </li>
+                    <li>
+                        <i class="bi bi-person"></i>
+                        <span>Setting</span>
+                    </li>
+                    <li>
+                        <i class="bi bi-person"></i>
+                        <span>Log In</span>
+                    </li>
+                </ul>
+               </div>
+            </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Row- Header Edit Profile   -->
+    <div class="row m-1 header2">
+        <div class="col-6 d-flex justify-content-between align-items-between ">
+          <h2>Edit Profile</h2>
+         
+        </div>
+        <div class="col-6 d-flex  justify-content-end padding-10 ">
+          <a href="#"><i class="bi bi-house-door"></i></a>
+          <h6>/ Users / Edit Profile </h6>
+        </div>  
+    </div>
+    
+    <!-- form section -->
+    <div class="row p-4 form-section">
+  <!-- My Profile     -->
+      <div class="col-3  ">
+        <div class="d-flex flex-column justify-content-start my-profile  m-2">
+          <h4 class="padding-20">My Profile</h4>
+          <div class="dropdown-divider"></div>
+          <div class="padding-20">
+            <img src="../JS-Cuba Page-04/assets/mark jecno.jpg" class="img-70 rounded-circle" alt="...">
+            <h5 class="card-title text-start">MARK JECNO</h5>
+            <p class="card-text">DESIGNER</p>
+          </div>
+          <!-- <div id="myProfile"></div> -->
+          <form action="" id="myProfile" class="padding-10">  
+            <div class="col-12  ">
+              <label for="inputBio" class="form-label font-bold">Bio</label>
+              <textarea class="form-control" rows="3" aria-label="With textarea" id="inputBio" placeholder=" On the other hand, we denounce with righteous indignation"></textarea>
+              <div class="error"></div>
+            </div>
+            
+            <div class="col-12 ">
+              <label for="inputEmailadd" class="form-label">Email-address</label>
+              <input type="email" class="form-control" id="inputEmailadd" placeholder="Your-email@domain.com">
+              <div class="error"></div> 
+            </div>
+            <div class="col-12 ">
+              <label for="inputPassword" class="form-label">Password</label>
+              <input type="password" class="form-control" id="inputPassword" placeholder="">
+              <div class="error"></div>
+            </div>
+            <div class="col-12 ">
+              <label for="inputWebsite" class="form-label">Website</label>
+              <input type="text" class="form-control" id="inputWebsite" placeholder="http://Uplor.com">
+              <div class="error"></div>
+            </div>
+            <div class="col-12 padding-10 ">
+              <button type="submit" class="btn btn-primary left" name="saveProfile" id="saveProfile">Save</button>
+            </div>
+          </form> 
+           
+        </div>
+      </div>
+<!-- Edit Profile -->
+      <div class="col-9  ">
+        <div class="d-flex flex-column justify-content-start my-profile  m-2">
+          <h4 class="padding-20">Edit Profile</h4>
+          <div class="dropdown-divider"></div>
+          <div class="padding-20">
+            <!-- form-edit profile -->
+            <form class="row g-3" id="editProfile">
+              <div class="col-4">
+                <label for="inputCompany" class="form-label">Company</label>
+                <input type="text" class="form-control" id="inputCompany" placeholder="Company">
+                <div class="error"></div>
+              </div>
+              <div class="col-4">
+                <label for="inputUser" class="form-label">Username</label>
+                <input type="text" class="form-control" id="inputUser" placeholder="Username">
+                <div class="error"></div>
+              </div>
+              <div class="col-4">
+                <label for="inputEmailId" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="inputEmailId" placeholder="Email">
+                <div class="error"></div>
+              </div>
+
+              <div class="col-5">
+                <label for="inputFirstname" class="form-label">Firstname</label>
+                <input type="text" class="form-control" id="inputFirstname" placeholder="Company">
+                <div class="error"></div>
+              </div>
+              <div class="col-7">
+                <label for="inputlastname" class="form-label">Lastname</label>
+                <input type="text" class="form-control" id="inputlastname" placeholder="Last Name">
+                <div class="error"></div>
+              </div>
+              
+              <div class="col-12">
+                <label for="inputAddress" class="form-label">Address</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="Home Address">
+                <div class="error"></div>
+              </div>
+              
+              <div class="col-4">
+                <label for="inputCity" class="form-label">City</label>
+                <input type="text" class="form-control" id="inputCity" placeholder="City">
+                <div class="error"></div>
+              </div>
+              <div class="col-4">
+                <label for="inputPostalCode" class="form-label">Postal Code</label>
+                <input type="text" class="form-control" id="inputPostalCode" placeholder="Zip Code">
+                <div class="error"></div>
+              </div>
+              <div class="col-4">
+                <label for="inputCountry" class="form-label">Country</label>
+                <select id="inputCountry" class="form-select">
+                  <option value ="0" selected>--Select--</option>
+                  <option value="1">Germany</option>
+                  <option value="2">Canada</option>
+                  <option value="3">Usa</option>
+                  <option value="4">Aus</option>
+                </select>
+                <div class="error"></div>
+              </div>
+              <div class="col-12">
+                <label for="inputAboutme" class="form-label">About Me</label>
+                <textarea class="form-control" rows="3" aria-label="With textarea" id="inputAboutme" placeholder="Enter About Your Description"></textarea>
+                <div class="error"></div>
+              </div>
+                                
+              <div class="col-12 ">
+                <button type="submit" class="btn btn-primary right" id="updateProf" >Update Profile</button>
+              </div>
+            </form>
+          </div>
+          
+        </div>
+      </div>
+<!-- display output on save -->
+      <div  class="col-12 " id="displayOutput">
+        <h3>Display Data </h3>
+       
+      </div>
+    </div>
+  </div> <!-- page-body -->  
+ 
+    
+</div>  <!-- Container Fluid -->  
+</body>
+</html>
